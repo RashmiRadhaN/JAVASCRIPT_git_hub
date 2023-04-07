@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD</title>
+    <link rel="stylesheet" href="Script.css">
+    
+</head>
+<body>
+    <fieldset>
+    <h1>FORM</h1>
+    <form id="form">
+        <input type="text" id="name" name="name" placeholder="Name"><br><br>
+        <input type="text" id="job" name="job" placeholder="job"><br><br>
+        <input type="text" name="exp" id="exp" placeholder="Experience"><br><br>
+      <input type="button" value="Submit" id="btn" onclick="Submit()">
+      <input type="reset" value="Reset" > 
+
+    </form>
+</fieldset>
+
+<div id="msg"></div><br>
+
+<fieldset>
+    <legend>
+        <h2>DATA FROM LOCAL STORAGE</h2>
+    </legend>
+    <table border="2" id="table">
+        <tr>
+            <td class="col">Name</td>
+            <td class="col">Job</td>
+            <td class="col">Experience</td>
+            <td class="col">Action</td>
+        </tr>
+    </table>
+
+</fieldset>
+<!-- <script src="./Script.js" async></script> -->
+<script src="NewScript.js"></script>
+</body>
+</html>
